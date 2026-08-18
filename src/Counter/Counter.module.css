@@ -1,0 +1,39 @@
+body{
+    background-color: rgb(27, 43, 61);
+}
+p{
+    font-size: 3em;
+    text-align: center;
+}
+
+.box0{
+    background-color: rgb(39, 39, 45);
+    color: white;
+    border: 3px solid rgb(46, 43, 43);
+    border-radius: 10px;
+    box-shadow: 2px 5px 9px gray;
+    width: 200px;
+    margin-left: 30%;
+    margin-right: 50%;
+    padding: 10px;
+}
+.box1{
+    display: flex;
+    gap: 3px;
+}
+button{
+    border: 1px solid rgb(98, 84, 84);
+    border-radius: 5px;
+
+    &:hover{
+        cursor: pointer;
+        background-color: rgb(46, 250, 5);
+    }
+}
+p{
+    border: 2px solid rgb(222, 196, 196);
+    border-radius: 39px;
+    padding: 5px;
+    width: fit-content;
+    margin-left: 37%;
+}
